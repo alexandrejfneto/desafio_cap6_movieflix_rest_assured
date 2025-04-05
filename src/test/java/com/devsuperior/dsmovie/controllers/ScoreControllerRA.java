@@ -39,7 +39,7 @@ public class ScoreControllerRA {
 		scoreInstance.put("movieId", existingMovieId);
 		scoreInstance.put("score", validScore);
 		
-		adminUsername = "alex@gmail.com";
+		adminUsername = "maria@gmail.com";
 		adminPassword = "123456";
 		adminToken = TokenUtil.obtainAccessToken(adminUsername, adminPassword);
 		
